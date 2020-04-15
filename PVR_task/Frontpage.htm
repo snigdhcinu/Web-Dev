@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage</title>
+</head>
+	<style>
+		#page1 {
+			position: absolute;
+			width: 1350px;
+			height: 790px;
+			background-repeat: no-repeat;
+			background-attachment: scroll;
+			background-size: cover;
+		}
+		#page1 #header #sitelogo{
+			position: absolute;
+			left: 125px;
+			top: 50px;
+			opacity: 0.3;
+			}
+		#page1 #header #sitelogo img{
+			border-radius: 38px;
+			width: 76px;
+			height: 76px;
+		}
+		#page1 #header #navigator table{
+			table-layout: fixed;
+			position: absolute;
+			left: 263px;
+			top:20px;
+
+		}
+		#page1 #content {
+			position: relative;
+			top: 150px;
+			left: 80px;
+			font-size: 50px;
+			color:black;
+		}
+		#page1 #slide {
+			position: relative;
+			top:160px;
+			left: 50%;
+			font-size: 30px;
+		}
+		#aboutus{
+			position: relative;
+			top:200px;
+		}
+		#aboutus #tex{
+			position: relative;
+			font-size: 47px;
+			left: 60px;
+			top: -40px;
+		}
+		#products p{
+			text-align: center;
+			position: relative;
+			padding-top: 230px;
+			font-size: 47px;
+		}
+		#products #pdts #pdttab{
+			position: relative;
+			border-spacing: 0px;
+			width: 100%;
+		}
+		#products #pdts #pdttab #lev1 td{
+			width: 400px;
+			height: 250px;
+			border-style: none;
+		}
+		#data1 img{
+			width: 100%;
+		}
+		#data2 img{
+			width: 100%;
+		}
+		#data3 img{
+			width: 100%;
+		}
+	/*	#products #pdts #pdttab #underling{
+			width: 400px;
+			/*border-style: solid;
+			border-width: 400px;*/
+
+		}
+	
+
+	</style>
+<body>
+	<div id="page1" style="background-image: url('index.jfif'); ">
+		<div id=header>
+			<header>
+				<div id="sitelogo">
+					<a href="https://pvrmm.com/" target="_blank"><img src="logo.jfif" alt="logo"/></a>
+				</div>
+			</header>
+			<nav id="navigator">
+				<table>
+					<tr>
+						<td width="80px" style="font-size: large;font-weight: bolder;"><a href="#home" style="text-decoration: none;color: black">Home</a></td>
+						<td width="80px" onmouseover="show()" onmouseout="hide()" style="font-size:large;font-weight: bolder;position: relative;top: 60px"><a href="#products" style="text-decoration: none;color: black">Products</a>
+							<ul id="list" style="visibility: hidden;list-style-type: none;position: relative;left: -25px;">
+								<li><a href="#products"style="text-decoration: none;color: black">Item1</a></li>
+								<li><a href="#products"style="text-decoration: none;color: black">Item2</a></li>
+								<li><a href="#products"style="text-decoration: none;color: black">Item3</a></li>
+								<li><a href="#products"style="text-decoration: none;color: black">Item4</a></li>
+							</ul>
+						
+						</td>
+						<td width="80px" style="font-size: large;font-weight: bolder;"><a href="#contact"style="text-decoration: none;color: black">Contact</a></td>
+						<td width="80px" style="font-size: large;font-weight: bolder;"><a href="#aboutus"style="text-decoration: none;color: black">About Us</a></td>
+					</tr>
+				</table>	
+			</nav>
+			<div id="content">
+				<h1>Welcome to PVR<br>This is a line of<br>content with a line<br>break and yet another.</h1>
+				
+			</div>
+			<div id="slide">
+				<button onclick="prev()"><</button> ....
+				<button onclick="next()">></button>
+			</div>
+		</div>
+		<!-- <hr style="position: relative;top: 153px"> -->
+		<div id="aboutus">
+			<table>
+				<tr>
+					<td id="bor" style="width:50%;height: 450px;border-style: solid;border-width: 2px"></td>
+					<td id="tex" style="width:50%;height: 450px;">
+						<p style="text-align: center;">About Us</p><p>This is a line of text.<br>This is another line of text.<br>This is yet another line of text.</p>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<div id="products">
+			<p>Our Products</p>
+			<div id="pdts">
+				<table id="pdttab">
+					<tr id="lev1">
+						<td id="data1" onmouseover="disp1()" onmouseout="hide1()" onmouseover="dim1()" onmouseout="bright1()" onclick="showapp1()"><a href="#products"><img src="index4.jfif"></a></td>
+						<td id="data2" onmouseover="disp2()" onmouseout="hide2()" onmouseover="dim2()" onmouseout="bright2()" onclick="showapp2()"><a href="#products"><img src="index5.jfif"></a></td>
+						<td id="data3" onmouseover="disp3()" onmouseout="hide3()" onmouseover="dim3()" onmouseout="bright3()" onclick="showapp3()"><a href="#products"><img src="index.jfif"></a></td>
+					</tr>
+				</table>
+			</div>
+			
+			<div id="text1" style="position: relative; top: -95px;left: 20px;">
+				<a href="" id="link1" style="text-decoration: none;color:red;font-size: 25px;font-weight: bold;visibility: hidden;">Product 1</a>
+			</div>
+			<div id="text2" style="position: relative;top:-120px;left: 480px">
+				<a href="" id="link2" style="text-decoration: none;color: red;font-size: 25px;font-weight: bold;visibility: hidden;">Product 2</a>
+				
+			</div>
+			<div id="text3" style="position: relative;top:-140px;left: 940px">
+				<a href="" id="link3" style="text-decoration: none;color: red;font-size: 25px;font-weight: bold;visibility: hidden;">Product 3</a>	
+			</div>
+			
+		</div>
+	</div>
+	<div id="prodref" style="position: relative;top: 1800px;text-align: center;">
+		<div id="app1" style="display: none;position: relative;left: 500px">
+		<p id="apps" style="font-size: 40px;left: 10px">Applications</p>
+			<div style="position: relative;">
+			<a href="#products"><img src="p1v1.png" alt="product1_name1" style="width: 150px;position: relative;left: -250px"></a>
+			<a href="#products"><img src="p1v2.png" alt="product1_name2" style="width: 150px"></a>
+			<a href="#products"><img src="p1v3.png" alt="product1_name3" style="width: 150px;position: relative;left: 250px"></a>
+			</div>
+		</div>
+		<div id="app2" style="display: none;position: relative;left: 500px">
+		<p id="apps" style="font-size: 40px;left: 10px">Applications</p>
+			<div style="position: relative;">
+			<a href="#products"><img src="p2v2.png" alt="product2_name1" style="width: 150px;position: relative;left: -250px"></a>
+			<a href="#products"><img src="p2v2.png" alt="product2_name2" style="width: 150px"></a>
+			<a href="#products"><img src="p2v3.png" alt="product2_name3" style="width: 150px;position: relative;left: 250px"></a>
+			</div>
+		</div>
+		<div id="app3" style="display: none;position: relative;left: 500px">
+		<p id="apps" style="font-size: 40px;left: 10px">Applications</p>
+			<div style="position: relative;">
+			<a href="#products"><img src="p3v1.png" alt="product3_name1" style="width: 150px;position: relative;left: -250px"></a>
+			<a href="#products"><img src="p3v2.png" alt="product3_name2" style="width: 150px"></a>
+			<a href="#products"><img src="p3v3.png" alt="product3_name3" style="width: 150px;position: relative;left: 250px"></a>
+			</div>
+		</div>
+	
+
+	</div>
+	<div id="ourservices" style="position: relative;top: 1850px;">
+		<p style="text-align: center;font-size: 50px;position: relative;left: 30px;">Our Services</p>
+		<table style="position: relative;left: 250px;padding: 10px">
+			<tr style="font-size: 20px">
+				<td style="width: 370px"><img src="logo1.png" style="width: 100px;"><p style="position: relative;left: -90px;padding-right: 5px">These are some lines of texts, where we say something about the services that we provide.</p></td>
+				<td style="width: 370px"><img src="logo2.png" style="width: 100px"><p style="position: relative;left: -90px;padding-left: 5px">These are other lines of texts, where we say something about the customer supports that we provide.</p></td>
+				<td style="width: 370px"><img src="logo3.png" style="width: 100px"><p style="position: relative;left: -90px;padding-left: 5px">These are yet some another lines of texts, where we say something about the infomations and FAQs.</p></td>
+			</tr>
+		</table>
+		
+	</div>
+	<div id="testimony" style="position: relative;top: 1900px;text-align: center;font-size: 30px">
+		<p style="font-size: 50px;left: 20px">Testimony</p>
+		<table id="tabtesti" style="position: relative;">
+			<tr>
+				<!-- <td id="tabprev" style="position: relative;left: 440px;top: 30px"><button onclick="prevtest()"><</button></td> -->
+			<td><div id="test_content" style="width: 400px;position: relative;left: 470px">
+				<img id="testperson" src="person.png" style="width: 100px;">
+				<p id="testip">This is the testimony of a person who was satisfied by our work.You 	should also
+				keep this in mind that this part is completely customizable.</p>
+				</div></td>
+				<!-- <td id="tabnext" style="position: relative;left: 500px;top: 30px"><button onclick="nexttest()">></button></td> -->
+			</tr>
+		</table>
+		<div id="slider2" style="position: relative;left: -30px;top: -160px">
+			<button onclick="prevtest()" style="position: relative;left: -200px;width: 30px;height: 30px"><</button>
+			<button onclick="nexttest()" style="position: relative;left: 270px;width: 30px;height: 30px">></button>
+		</div>
+		
+	</div>
+	<div id="reachus">
+		<table style="position: relative;top: 2000px;background-color: #AACFCF;width: 100%;height: 900px">
+			<tr style="position: relative;top: -70px">
+				<td style="position: relative;font-size: 50px;top: -250px;left: 20px">Address</td>
+				<td style="position: relative;font-size: 50px;top: -250px;left: 90px">Quick Links</td>
+				<td style="position: relative;font-size: 30px;width: 30%;top: -100px">
+					<div style="position: relative; border-style: solid;height: 200px;text-align: center;top: 100px"><p>Newsletter
+					</p>
+					</div>
+					<div style="position: relative;top: 120px; border-style: solid;height: 500px;text-align: center"><p>Map</p>
+						
+					</div>
+				</td>
+			</tr>
+		</table>
+		
+	</div>
+	<footer style="position: relative;left:30px;top: 2000px;font-size: 20px">
+		<img src="copyright.png" style="width: 10px;"  >copyright
+		<a href="https://pvrmm.com/index.html#about" style="text-decoration: none;color: black;position: relative;left: 400px">PVRMM.com</a>
+	</footer>
+
+</body>
+<script>
+	function show()
+	{
+		let x=document.getElementById("list");
+		x.style.visibility="visible";
+	}
+	function hide()
+	{
+		let x=document.getElementById("list");
+		x.style.visibility="hidden"; 
+	}
+	var images=[
+	"index.jfif","index2.jfif","index3.jfif","index4.jfif","index5.jfif"];
+	var num=0;
+	function next(){
+		var slider=document.getElementById('page1');
+		num++;
+		if(num>=images.length)
+			num=0;
+		slider.style.backgroundImage='url("'+images[num]+'")';
+	}
+	function prev(){
+		var slider=document.getElementById("page1");
+		num--;
+		if(num<0)
+			num=images.length-1;
+		slider.style.backgroundImage='url("'+images[num]+'")';
+	}
+	function disp1(){
+		let x=document.getElementById("link1");
+		x.style.visibility="visible";
+	} 
+	function hide1(){
+		let x=document.getElementById("link1");
+		x.style.visibility="hidden";
+	}
+	function disp2(){
+		let x=document.getElementById("link2");
+		x.style.visibility="visible";
+	} 
+	function hide2(){
+		let x=document.getElementById("link2");
+		x.style.visibility="hidden";
+	}
+	function disp3(){
+		let x=document.getElementById("link3");
+		x.style.visibility="visible";
+	} 
+	function hide3(){
+		let x=document.getElementById("link3");
+		x.style.visibility="hidden";
+	}
+	function showapp1(){
+		let a=document.getElementById("app1");
+		a.style.display="table";
+		let b=document.getElementById("app2");
+		let c=document.getElementById("app3");
+		b.style.display="none";
+		c.style.display="none";
+
+	}
+	function showapp2(){
+		let a=document.getElementById("app2");
+		a.style.display="table";
+		let b=document.getElementById("app3");
+		let c=document.getElementById("app1");
+		b.style.display="none";
+		c.style.display="none";
+	}
+	function showapp3(){
+		let a=document.getElementById("app3");
+		a.style.display="table";
+		let b=document.getElementById("app2");
+		let c=document.getElementById("app1");
+		b.style.display="none";
+		c.style.display="none";
+	}
+	var testimos=["person.png","rate.png"];
+	var strper=["This is the testimony of a person who was satisfied by our work.This part is completely customizable.","This is testimony of another person who was also satisfied by our quality of work,this part of code is also customizable."];
+	var count=0;
+	function nexttest(){
+		let y=document.getElementById("testperson");
+		let z=document.getElementById("testip");
+		count++;
+		if(count>=testimos.length){
+			count=0;
+		}
+		y.src=testimos[count];
+		z.innerHTML=strper[count];
+		
+	}
+	function prevtest(){
+		let y=document.getElementById("testperson");
+		let z=document.getElementById("testip");
+		count--;
+		if(count<0){
+			count=testimos.length-1;
+		}
+		y.src=testimos[count];
+		z.innerHTML=strper[count];
+	}
+</script>
+</html>
