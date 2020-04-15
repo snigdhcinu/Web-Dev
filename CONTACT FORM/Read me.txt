@@ -1,0 +1,6 @@
+OBJECTIVE:-
+          1. The goal behind this project was to implement form.
+          2. Here we saw how to use several input types.
+          3. How to redirect to another webpage.
+          4. Saw the importance of div element in alignment.
+          5. Learnt about a new element called progress.

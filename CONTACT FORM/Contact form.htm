@@ -1,0 +1,41 @@
+<!--This is a contact form, where user gives his personal info-->
+<html>
+
+<head>
+    <title> Contact form</title>
+</head>
+
+<body>
+    <h1 align="center">
+        <font color="silver">Rajdeep Classes</font>
+    </h1>
+    <form align="center" action="info.htm" method="GET">
+        <div align="center">
+            <p>Name</p><br/>
+            <input type="text" name="Name" placeholder="Name" required autofocus>
+            <p>Phone no.</p>
+            <br/>
+            <input type="number" name="phone no." placeholder="phone no." autofocus>
+            <p>e-mail</p>
+            <bn/>
+            <input type="email" name="email" placeholder="e-mail">
+            <p>Address</p>
+            <br/>
+            <input type="text" name="address" required placeholder="address">
+            <p>Sex</p>
+            <input type="radio" name="Gender" required value="male">Male <br/>
+            <input type="radio" name="Gender" required value="female">Female<br/>
+            <input type="radio" name="Gender" required value="others">LGBT<br/>
+            <p>Languages</p>
+            <input type="checkbox" name="Languages" value="C">C<br/>
+            <input type="checkbox" name="Languages" value="C++">C++<br/>
+            <input type="checkbox" name="Languages" value="HTML">HTML<br/>
+            <input type="checkbox" name="Languages" value="CSS">CSS<br/>
+            <input type="checkbox" name="Languages" value="PYTHON">PYTHON<br/>
+            <input type="checkbox" name="Languages" value="JAVASCRIPT">JAVASCRIPT<br/>
+        </div>
+        <input align="left" type="checkbox" name="T&C" required value="1">I accept all terms and conditions.<br/>
+        <input align="left" type="checkbox" name="T&C" required value="2">I will abide by the rules<br/>
+        <div align="center"><input type="submit" value="SUBMIT"></div>
+    </form>
+</body>
