@@ -1,0 +1,10 @@
+OBJECTIVES :-
+                1. Importance of div in alignment and other attributes setting.
+                2. Advantages of using table as a vector.
+                3. How to create a string using different colored characters.
+                4. How to create a search bar.
+                5. A new input type called button, and how it is different form type="submit".
+                6. How to cleverly use <br><br> to put our element in desired line.
+                7. Learnt the application of footer element. 
+                8. How to use datalist.
+                9. The doctype and metacharset description in the beginning of the html document. 

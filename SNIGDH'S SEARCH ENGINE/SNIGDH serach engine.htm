@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+    <title>Snigdh</title>
+</head>
+
+<body>
+    <div align="right">
+        <a href="registration.htm">S-mail</a>
+        <a href="aboutus.htm">About us</a>
+    </div>
+    <br/><br/><br><br><br><br><br><br><br><br><br><br>
+    <table id="tm" align="center" style="position: relative;top: -50px">
+        <tr>
+            <td style="font-size: 100px;font-weight: bold;">
+                <font color="blue">
+                    S</font>
+            </td>
+            <td style="font-size: 100px;font-weight: bold;">
+                <font color="red">
+                    n</font>
+            </td>
+            <td style="font-size: 100px;font-weight: bold;">
+                <font color="yellow">
+                    i
+                </font>
+            </td>
+            <td style="font-size: 100px;font-weight: bold;">
+                <font color="green">
+                    g
+                </font>
+            </td>
+            <td style="font-size: 100px;font-weight: bold;">
+                <font color="blue">
+                    d
+                </font>
+            </td>
+            <td style="font-size: 100px;font-weight: bold;">
+                <font color="red">
+                    h
+                </font>
+            </td>
+                </tr>
+    </table>
+
+    <div align="center" style="position: relative;left:  300px;width: 10px;height: 45px">
+        <input id="searchbar" class="searchbar" type="search"placeholder="   Search" style="position: absolute;left: 110px; width:500px; height:50px;top: -30px;border-radius: 20px;text-indent: 15px">
+
+        <br><br><br><br>
+    </div>
+    <div align="center" style="position: relative;right: 15px">
+<!--         <form id="form">
+ -->        <input type="button" value="Snigdh Search" onclick="normSearch()" style="height: 30px">
+        <input type="button" value="I'm Feeling Lucky" onclick="topSearch()" style="height: 30px;position:relative;right: -10px">
+     <!--    <div class="input">
+            <button >Snigdh Search</button>
+            <button>I'm Feeling Lucky</button>
+        </div>
+        </form> -->
+    </div>
+    <footer>
+        <br><br>
+        <div align="center">
+            <p>Snigdh offered in :
+                <a href="hindi.htm"> Hindi, </a>
+                <a href="bengali.htm">Bengali,</a>
+                <a href="russian.htm">Russian,</a>
+                <a href="chinese.htm">Chinese,</a>
+                <a href="others.htm">more...</a>
+            </p>
+            <div id="result"></div>
+        </div>
+    </footer>
+</body>
+<script>
+
+// to return all results.
+function normSearch()
+{
+    var query=document.getElementById("searchbar").value;
+    var key="d4621e0d76d814c6af399a9b0d19a4fc";
+    var url="http://api.serpstack.com/search?access_key="+key+"&type=web&query="+query;
+    var result='';
+    
+        // get request with a call back function
+    
+    let request=new XMLHttpRequest();
+    request.open('Get',url);
+    request.responseType='json';
+    var data=request.response;
+    document.getElementById("result").innerHTML="";
+    request.onload=function()
+    {
+       // console.log(request.response.organic_results);
+        request.response.organic_results.forEach(res=>{
+            result="<h1>"+res.title+"</h1><br><a href="+res.url+">"+res.url+"</a><p>"+res.snippet+"</p>";
+           // var node=document.createNode(result);
+            var div=document.getElementById("result");
+            //div.appendChild(node);
+            div.innerHTML+=result;
+        })
+    }
+    request.send();
+}
+// To return top search result.
+function topSearch()
+{
+
+     var query=document.getElementById("searchbar").value;
+    var key="d4621e0d76d814c6af399a9b0d19a4fc";
+    var url="http://api.serpstack.com/search?access_key="+key+"&type=web&query="+query;
+    var result='';
+    
+        // get request with a call back function
+    
+    let request=new XMLHttpRequest();
+    request.open('Get',url);
+    request.responseType='json';
+    var data=request.response;
+    document.getElementById("result").innerHTML="";
+    request.onload=function()
+    {
+       // console.log(request.response.organic_results);
+       var i=0
+        request.response.organic_results.forEach(res=>{
+            if(i<1)
+            {
+            result="<h1>"+res.title+"</h1><br><a href="+res.url+">"+res.url+"</a><p>"+res.snippet+"</p>";
+           // var node=document.createNode(result);
+            var div=document.getElementById("result");
+            //div.appendChild(node);
+            div.innerHTML+=result;
+            i++;
+            }
+            else 
+                return;
+        })
+    }
+    request.send();
+}
+
+// // Get request with a call-back function.
+// const Http = new XMLHttpRequest();
+// Http.open("GET", url);
+// Http.send();
+// Http.onreadystatechange = function(){
+
+//   console.log(Http.responseText)
+// }
+// //djfkjdkfksd
+</script>
+
+
+</html>
