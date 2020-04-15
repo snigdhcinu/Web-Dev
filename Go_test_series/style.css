@@ -1,0 +1,164 @@
+#aboutus{
+	padding:  200px;
+	height: 600px;
+	text-align: center;
+	background-image: url("bg_img.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#aboutus #line1{
+	font-size: 50px;
+}
+#aboutus #line2{
+	font-size: 30px;
+}
+#link{
+	text-decoration: none;
+	color:black;
+	font-family: comic-sans; 
+}
+#col0{
+	background-color: white;
+}
+#col1{
+	background-color: yellow;
+}
+#col2{
+	background-color: green;
+}
+#col3{
+	background-color: pink;
+}
+#pricingheading{
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+}
+#pricedescription0{
+	font-size: 30px;
+	font-weight: bold;
+}
+.pricedescription0{
+	text-align: center;
+}#pricedescription1{
+	font-size: 30px;
+	font-weight: bold;
+}
+.pricedescription1{
+	text-align: center;
+}
+#pricedescription2{
+	font-size: 30px;
+	font-weight: bold;
+}
+.pricedescription2{
+	text-align: center;
+}
+#pricedescription3{
+	font-size: 30px;
+	font-weight: bold;
+}
+.pricedescription3{
+	text-align: center;
+}
+#amt0{
+	font-size: 20px;
+	text-align: center;
+}
+#amt0 span{
+	font-size: 25px;
+	font-weight: bold;
+}
+#amt1{
+	font-size: 20px;
+	text-align: center;
+}
+#amt1 span{
+	font-size: 25px;
+	font-weight: bold;
+}
+#amt2{
+	font-size: 20px;
+	text-align: center;
+}
+#amt2 span{
+	font-size: 25px;
+	font-weight: bold;
+}
+#amt3{
+	font-size: 20px;
+	text-align: center;
+}
+#amt3 span{
+	font-size: 25px;
+	font-weight: bold;
+}
+#teamies{
+	padding-top: 40px;
+	background-color: lightblue;
+}
+#intro{
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+}
+.img{
+	width: 100px;
+	height: 100px;
+}
+.naam{
+	font-size: 20px;
+}
+.pata{
+	font-size: 15px;
+}
+#container{
+	position: relative;
+	left: 25px;
+}
+#lev1{
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+}
+#elements p{
+	font-size: 30px;
+	font-weight: bold;
+	text-align: left;
+}
+#elements{
+	position: relative;
+	left: 220px;
+}
+#elements{
+	position: relative;
+	top: 50px;
+}
+#yolo{
+	position: relative;
+	left: -550px;
+}
+.font{
+	font-size: 20px;
+	font-weight: normal;
+	text-align: left;
+}
+.ips{
+	height: 40px;
+	font-size: 20px;
+	width: 30%;
+	position: relative;
+	left: 50px;
+}
+.ips1{
+	font-size: 20px;
+	position: relative;
+	width: 30%;
+	height: 400px;
+	left: 88px;
+}
+#btn2{
+	position: relative;
+	top: 50px;
+}
