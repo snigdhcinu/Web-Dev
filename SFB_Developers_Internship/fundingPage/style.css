@@ -1,0 +1,141 @@
+.samrat{
+	color: red;
+	font-size: 2.5em;
+	}
+.finban{
+	color: blue;
+	font-size: 1em;
+	font-weight: bold;
+}
+.navbar-nav{
+	margin-right: 2%;
+}
+.navbar-nav li{
+	margin: 0px 0px 0px 20px;
+}
+#search-bar form{
+	padding-top: 10px;
+	margin-left: 68%;
+}
+#main-body-para p{
+	font-size: 3em;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: green;
+	text-align: center;
+	margin-top: 10%;
+}
+#row-1 div img{
+	transform: scale(0.7,0.7);
+}
+#row-2 div img{
+	transform: scale(0.7,0.7);
+}
+.content{
+	padding-top: 12%;
+	padding-left: 8%;
+}
+.heading{
+	font-size: 3em;
+	font-weight: bold;
+	color:blue;
+	line-height: 2em;
+}
+.sub-heading{
+	font-size: 1.5em;
+	font-weight: bold;
+	line-height: 2em;
+}
+#share-ideas{
+	background-color: #dbdbdb;
+	height: 10em;
+	text-align: center;
+	padding-top: 40px;
+}
+#share-ideas a{
+	text-decoration: none;
+	color:black;
+}
+#share-ideas p{
+	font-size: 3em;
+	font-weight: bold;
+}
+#filler{
+	font-size: 3em;
+	font-weight: bold;
+	margin-top: 10%;
+	text-align: center;
+}
+#testimonial{
+	background-color: #ef8172;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	height: 40vh;
+}
+.testimonial-carousel{
+	padding: 7% 15%;
+}
+h2{
+	font-family: 'Montserrat-Bold';
+	font-size: 3rem;
+	line-height: 1.5;
+}
+.testimonial-img{
+	border-radius: 20px;
+	margin: 20px;
+	margin-left: 20px;
+}
+#end-note{
+	background-color: #dbdbdb;
+}
+.samrat2{
+	font-size: 2.5em;
+	margin-top: 20%;
+	color:red;
+	margin-left: 14%;
+}
+.investments{
+	font-size: 2.5em;
+	color:blue;
+	margin-top: -25px;
+}
+#form{
+	margin-top: 16%;
+}
+#form p{
+	font-weight: bold;
+	color: #000;
+}
+#form input{
+	width: 100%;
+	border-radius: 30px;
+	padding-left: 1em;
+	margin-top: -10px;
+	line-height: 1em;
+}
+#form label{
+	padding-left:1em; 
+	margin-top: 10px;
+}
+#form textarea{
+	padding-left: 1em;
+	width: 100%;
+	height: auto;
+	min-height: 6em;
+}
+#abt{
+	margin-top: 5%;
+	padding-left: 15%;
+}
+#abt a{
+	color: #000;
+}
+.fai{
+	margin: 20px 10px;
+}
+#footer{
+	padding: 6% 0% 0% 0%;	
+	background-color: #fff;
+	text-align: center;
+}

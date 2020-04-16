@@ -1,0 +1,128 @@
+.samrat{
+	color: red;
+	font-size: 2.5em;
+	}
+.finban{
+	color: blue;
+	font-size: 1em;
+	font-weight: bold;
+}
+.navbar-nav{
+	margin-right: 2%;
+}
+.navbar-nav li{
+	margin: 0px 0px 0px 20px;
+}
+#search-bar form{
+	padding-top: 10px;
+	margin-left: 68%;
+}
+#main-body{
+	background-image:  url("backgroundImage.jpg");
+	background-repeat: no-repeat;
+	background-size: auto;
+	height: 240px;
+	transform: scale(2.5,2.0);
+	margin-top: 13%;
+	margin-left:  52%;
+}
+#main-body h1,span{
+	font-family: cursive;
+	color: #0779e4;
+	width: 48%;
+	margin-left: 15%;
+	padding-top: 40px;
+}
+#main-body span{
+	font-size: 1.8em;
+	margin-left: 10%;
+	margin-top: -10px;
+}
+#disc-sec{
+	font-size: 4em;
+	margin-top: 13%;
+	margin-left: 23%;
+}
+#carousel{
+	margin-top: 4%;
+}
+.carousel img{
+	max-height: 500px;
+	max-width: 650px;
+	margin-left: 26%;
+}
+.carousel-inner{
+	background-color: #d2fafb;
+}
+.carousel-item h5,p{
+	color: #ff1e56;
+	font-weight: bold;
+	font-size: 1.8em;
+}
+.carousel-item p{
+	font-size: 1.2em;
+}
+#container{
+	margin-left: 7%;
+}
+.row img{
+	max-width: 350px;
+	max-height:250px;
+}
+.goto{
+	margin-left: 25%;
+}
+#end-note{
+	background-color: #dbdbdb;
+}
+.samrat2{
+	font-size: 2.5em;
+	margin-top: 20%;
+	color:red;
+	margin-left: 14%;
+}
+.investments{
+	font-size: 2.5em;
+	color:blue;
+	margin-top: -25px;
+}
+#form{
+	margin-top: 16%;
+}
+#form p{
+	font-weight: bold;
+	color: #000;
+}
+#form input{
+	width: 100%;
+	border-radius: 30px;
+	padding-left: 1em;
+	margin-top: -10px;
+	line-height: 1em;
+}
+#form label{
+	padding-left:1em; 
+	margin-top: 10px;
+}
+#form textarea{
+	padding-left: 1em;
+	width: 100%;
+	height: auto;
+	min-height: 6em;
+}
+#abt{
+	margin-top: 5%;
+	padding-left: 15%;
+}
+#abt a{
+	color: #000;
+}
+.fai{
+	margin: 20px 10px;
+}
+#footer{
+	padding: 6% 0% 0% 0%;	
+	background-color: #fff;
+	text-align: center;
+	font-size: x-small;
+}
