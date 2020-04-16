@@ -1,0 +1,126 @@
+body{
+	background-image: url('bg_img.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fffdf9;
+}
+#main-container{
+	position: relative;
+	height: 1300px; /*Set it to 1000px to see something cool, else 1300px. and padding-bottom of */
+}
+#header-section{
+	color: #fffdf9;
+	position: relative;
+	left: 30%;
+}
+#title{
+	font-size:  2.5rem;
+	font-family: 'Ubuntu', sans-serif;
+	margin-bottom: 
+}
+#description{
+	font-size: 1.5rem;
+	font-family: 'Ubuntu', sans-serif;
+}
+#form{
+	background-color: #363062;
+	height: 100%;
+	width: 60%;
+	position: relative;
+	left: 20%;
+	font-family: 'Roboto', sans-serif;
+	/*font-weight: bold;*/
+	font-size: 1.2rem;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+#form-name{
+	width: 100%;
+	padding: 40px 0px 30px 0px;
+}
+#name-label{
+	position: relative;
+	left: 4%;
+}
+#name{
+	width: 90%;
+	height: 1.5rem;
+	position: relative;
+	left: 4% ;
+}
+#survey-email{
+	padding:30px 0px;
+}
+#email-label{
+	position: relative;
+	left: 4%;
+}
+#email{
+	width: 90%;
+	height: 1.5rem;
+	position: relative;
+	left: 4%;
+}
+#survey-number{
+	padding: 30px 0px;
+}
+#number-label{
+	position: relative;
+	left: 4%;
+}
+#number{
+	width: 90%;
+	height: 1.5rem;
+	position: relative;
+	left: 4%;
+}
+#survey-dropdown{
+	padding: 30px 0px;
+}
+#survey-dropdown label{
+	position: relative;
+	left: 4%;
+}
+#dropdown{
+	width: 90%;
+	height: 1.5rem;
+	position: relative;
+	left: 4%;
+}
+#survey-radio{
+	position: relative;
+	left: 4%;
+	padding: 30px 0px;
+}
+#survey-checkbox{
+	position: relative;
+	left: 4%;
+	padding: 30px 0px 30px 0px;
+}
+#survey-textarea{
+	position: relative;
+	left: 4%;
+	padding: 30px 0px;
+}
+#textarea{
+	width: 90%;
+	height: 10rem;
+}
+#survey-submit{
+	position: relative;
+	left:4%;
+	padding: 20px 0px;
+	width: 100%;
+}
+#survey-submit button{
+	width: 91%;
+	height: 2.5rem;
+	font-size: 1.3rem;
+	background-color: #639a67;
+}
+
+
+

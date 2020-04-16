@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Product landing page.</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>	
+	<table>
+		<tr>
+			<td><img src="company-logo.png" id="header-img" class="company"></td>
+			<td id="company-name" class="company">Idea Box</td>
+			<td id="data"><nav id="nav-bar">
+				<a href="#features" class="nav-link">Features</a>
+				<a href="#video" class="nav-link">How it Works</a>
+				<a href="#pricing" class="nav-link">Pricing</a>
+			</nav></td>
+		</tr>
+	</table>
+	<div id="caption">
+	<p>Fresh, innovative and outside the box ideas.</p>
+ 	</div>
+	<form id="form" method="post" target="https://www.freecodecamp.com/email-submit">
+		<input id="mail" type="email" placeholder="Enter Your E-mail here">		<br/>
+		<input type="submit" id="submit" value="Get Started">
+	</form>
+	<table id="features">
+		<tr id="feat-1"><td><img src="logo1.png" class="tab-logo"></td><td><p class="tab-desc">Premium Materials</p><p class="tab-desc-desc">Our Ideas are well crafted from extensive searching, and guarantee that none of our works will count as plagarised.</p></td></tr>
+		<tr id="feat-2"><td><img src="logo2.png" class="tab-logo"></td><td><p class="tab-desc">Best Customer Support</p><p class="tab-desc-desc">We boast of the best customer support out there, and insure you full 24X7 technical support.</p></td></tr>
+		<tr id="feat-3"><td><img src="logo3.png" class="tab-logo"></td><td><p class="tab-desc">Always updating</p><p class="tab-desc-desc">We are a goup of motivated individuals, who believe in constantly upgrading and believing, doing the same for our works and all.</p></td></tr>
+	</table>
+	<embed id="video">
+		<video controls autoplay loop style="margin-top:30px;margin-left: 450px;width: 550px;height: 400px;">
+			<source src="video.mp4" type="video/mp4">
+		</video>
+	</embed>
+	<div id="pricing">
+		<table id="pricing-data">
+			<tr>
+				<td class="price-card">
+					<div class="card-header">Edison</div>
+					<div class="card-data">
+						<p class="price-amt"> Free</p>
+						<ul class="price-feat">
+							<li>Unlimited Tech Support</li>
+							<li>1 Idea per module</li>
+							<li>1 month access</li>
+							<li>No prioritization</li>
+						</ul>
+					</div>
+					<button class="card-select">Sign Up</button>
+				</td>
+				<td class="price-card">
+					<div class="card-header">Einstien</div>
+					<div class="card-data">
+						<p class="price-amt">$600</p>
+						<ul class="price-feat">
+							<li>Unlimited Tech Support</li>
+							<li>Unlimited Idea per module</li>
+							<li>No month access restriction</li>
+							<li>No prioritization</li>
+						</ul>
+					</div>
+					<button class="card-select">Sign Up</button>
+				</td>
+				<td class="price-card">
+					<div class="card-header">Tesla</div>
+					<div class="card-data">
+						<p class="price-amt"> $900</p>
+						<ul class="price-feat">
+							<li>Unlimited Tech Support</li>
+							<li>Unlimited Idea per module</li>
+							<li>No month access restriction</li>
+							<li>Top prioritization</li>
+						</ul>
+					</div>
+					<button class="card-select">Sign Up</button>
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
