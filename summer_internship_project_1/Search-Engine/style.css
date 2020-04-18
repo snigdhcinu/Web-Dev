@@ -1,0 +1,26 @@
+#main-body{
+	background-image: url('bg1.jpg');
+	background-repeat: no-repeat;
+	background-size:100%;
+	background-attachment: fixed;
+}
+#name{
+	color: #fff;
+	font-size: 3em;
+	position: absolute;
+	left: 40%;
+}
+#search-bar{
+	margin-top: 28%;
+	margin-left: 30%;
+}
+#input-field{
+	width: 50%;
+	height: 1.7em;
+	border-radius: 20px;
+	padding-left: 2%;
+	font-size: 1.3em;
+}
+#extra-info{
+	padding-top: 15%;
+}
