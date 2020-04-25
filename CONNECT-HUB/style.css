@@ -1,0 +1,66 @@
+#container{
+	text-align: center;
+	margin-left: 3%;
+	margin-top: 2%;
+}
+.card{
+	width: 20em;
+	margin-top: 6%;
+}
+.header{
+	background-color: #dbdbdb;
+	margin-left: -8%;
+	margin-right: -8.5%;
+	margin-top: -10%;
+}
+.venue .btn {
+	font-family: sans-serif;
+}
+.time{
+	font-family: 'Rubik', sans-serif;
+	color: red;
+}
+.cover1{
+	height: 40vh;
+	margin-top: -3.5%;
+	margin-left: -8%;
+	margin-right: -8.5%;
+	margin-bottom: -8%;
+	background-image: url('pic1.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.cover2{
+	height: 40vh;
+	margin-top: -3.5%;
+	margin-left: -8%;
+	margin-right: -8.5%;
+	margin-bottom: -8%;
+	background-image: url('pic2.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.cover3{
+	height: 40vh;
+	margin-top: -3.5%;
+	margin-left: -8%;
+	margin-right: -8.5%;
+	margin-bottom: -8%;
+	background-image: url('pic3.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.cover4{
+	height: 40vh;
+	margin-top: -3.5%;
+	margin-left: -8%;
+	margin-right: -8.5%;
+	margin-bottom: -8%;
+	background-image: url('pic4.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.btns{
+	padding-top: 60%;
+	opacity: 0.2;
+}
