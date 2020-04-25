@@ -62,5 +62,13 @@
 }
 .btns{
 	padding-top: 60%;
-	opacity: 0.2;
+}
+.btn-container{
+	background-color: rgba(255,255,255,0.7);
+	margin-top: -3%;
+	height: 100px;
+}
+.btn{
+	margin-left: 5%;
+	margin-top: 2%;
 }
