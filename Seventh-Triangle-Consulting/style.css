@@ -1,0 +1,85 @@
+#container{
+	display: grid;
+	grid-template-areas: 
+		"cell1 cell2"
+		"cell3 cell4";
+	/*grid-column-gap: -100px;*/
+	justify-items:center;
+}
+#row1{
+	margin-left: 30vw ;
+}
+#cell1{
+	grid-area: cell1;
+	justify-self:center;
+}
+#cell2{
+	grid-area: cell2;
+}
+#price-selector{
+	margin-left: 30%;
+}
+#price-1{
+	text-align: center;
+	position: relative;
+	left: -15%;
+}
+#price-1:hover{
+	background-color: green;
+	color: white;
+}
+#price-2{
+	text-align: center;
+	position: relative;
+	right: -15%;
+}
+#price-2:hover{
+	background-color: green;
+	color: white;
+}
+#qty-val{
+	border-radius: 20px;
+	border-style: solid;
+	border-color: grey;
+	padding-left: 3%;
+}
+#payable{
+	border-radius: 20px;
+	background-color: lightblue; 
+	margin-top: 10%;
+	height: 3em;
+	width: 8em;
+}
+#payable a{
+	text-decoration: none;
+	color:white;
+}
+#total-amt{
+	color: green;
+	margin-left: 5%;
+}
+#row2{
+	margin-right: 30vw;
+}
+#cell3{
+	grid-area: cell3;
+}
+#cell4{
+	grid-area: cell4;
+}
+#price-selector{
+
+}
+@media(max-width: 730px)
+{
+	#container{
+		display: flex;
+		flex-direction: column;
+	}
+	#cell3{
+		margin-left: 30vw;
+	}
+	#cell4{
+		margin-left: 30vw;
+	}
+}

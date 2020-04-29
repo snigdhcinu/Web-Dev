@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>product carts</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="container">
+		<div id="row1">
+			<div id="cell1">
+				<img src="img-1.jpg">
+			</div>
+			<div id="cell2">
+				<p id="header">Aashirwad Atta- Whole Wheat, 10kg Pouch</p>
+				<p id="price">Rs 399</p>
+				<table id="price-selector">
+					<tr>
+						<td id="price-1" onclick="highlight1()">10 kg<br>Rs 399</td>
+						<td id="price-2" onclick="highlight2()">5 kg<br>Rs 209 </td>
+					</tr>
+				</table>
+				<br>
+				<label> Quantity: </label>
+				<input type="number" id="qty-val">
+				<button id="payable" onclick="eval()"><a href="#">Payable</a></button>
+				<span id="total-amt">= Rs 0</span>
+			</div>
+		</div>
+		<div id="row2">
+			<div id="cell3">
+				<img src="img-3.png">
+			</div>
+			<div id="cell4">
+				<img src="img-4.png">
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
