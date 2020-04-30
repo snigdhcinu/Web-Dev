@@ -19,7 +19,7 @@ function highlight2()
 		price2.style.color="white";
 		price1.style.backgroundColor="white";
 		price1.style.color="black";
-		text.innerText="Aashirwad Atta- Whole Wheat, 5kg Pouch";
+		text.innerText="Aashirwad Atta- Whole Wheat, 5 kg Pouch";
 		price.innerText='Rs 209';
 	}
 function eval()
