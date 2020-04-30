@@ -20,23 +20,27 @@
 	margin-left: 30%;
 }
 #price-1{
+	background-color: green;
+	color: white;
 	text-align: center;
 	position: relative;
 	left: -15%;
 }
-#price-1:hover{
+		/* Hover effect over the price category section. */
+/*#price-1:hover{
 	background-color: green;
 	color: white;
-}
+}*/
 #price-2{
 	text-align: center;
 	position: relative;
 	right: -15%;
 }
-#price-2:hover{
+		/* Hover effect over the price category section. */
+/*#price-2:hover{
 	background-color: green;
 	color: white;
-}
+}*/
 #qty-val{
 	border-radius: 20px;
 	border-style: solid;
