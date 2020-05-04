@@ -23,7 +23,7 @@
 	font-size: 1.5em;
 }
 #buttons{
-	margin-top: 2%;
+	margin-top: 4%;
 	text-align: center;
 	margin-left:  -5%;
 	padding-bottom: 3em;
@@ -38,11 +38,26 @@
 }
 #btn-2{
 	font-size: 1.5em;
-	margin-left: 8%;
+	margin-left: 6%;
+}
+#social-media-handles{
+	text-align: center;
+}
+#social-media-handles span{
+	opacity: 0.7;
 }
 #smh-1{
 	border-style: solid;
-	border-color: #b2d8d8;
-	border-radius: 40px;
-	background-color: #b2d8d8;
+	border-radius: 50px;
+	transform: scale(0.7);
+}
+#smh-2{
+	border-style: solid;
+	border-radius: 50px;
+	transform: scale(0.7);
+}
+#smh-3{
+	border-style: solid;
+	border-radius: 50px;
+	transform: scale(0.7);
 }
