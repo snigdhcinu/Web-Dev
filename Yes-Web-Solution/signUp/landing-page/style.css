@@ -61,3 +61,7 @@
 	border-radius: 50px;
 	transform: scale(0.7);
 }
+#photo{
+	width: 40%;
+	height: 60vh;
+}
