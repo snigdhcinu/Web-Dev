@@ -1,0 +1,75 @@
+#canvas{
+	width: 100%;
+	height: 100vh;
+	background-color: #f4f6ff;
+}
+#container{
+	text-align: center;
+	padding-top: 3%;
+}
+#container input{
+	width: 20em;
+	font-size:20px;
+}
+#container button{
+	font-size: 20px;
+	width: 10em;
+	border-radius: 20px;
+	border-style: solid;
+	border-width: 1px;
+}
+#container button:hover{
+	background-color: #e0dede;
+}
+#result{
+	padding-top: 5%;
+	padding-left: 8%;
+}
+
+
+
+#card{
+	border-width: 1px;
+	width: 280px; 		/*Make sure to change the card-image width as well*/
+	height: 360px;
+	display: none;
+}
+#card:hover{
+	box-shadow: 6px 6px #e8ead3, -6px -6px #e8ead3, 6px -6px #e8ead3, -6px 6px #e8ead3;
+}
+#card-image img{
+	width: 280px;
+	height: 150px;
+}
+#address{
+	margin-top: -1px;
+	font-weight: bold;
+	font-size: 1.3em;
+	padding-left: 5px;
+}
+#details{
+	margin-top: -15px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#last_hit_on{
+	width: 30%;
+	position: relative;
+	top: 20px;
+	color: #888;
+	padding-left: 10px;
+}
+#place_url{
+	display: none;
+	position: relative;
+	left: 65%;
+	margin-top: -6%;
+}
+#place_url button{
+	height: 2em;
+	background-color: #f8f8ff;
+}
+#place_url button:hover{
+	background-color: #000;
+	color: #fff;
+}
