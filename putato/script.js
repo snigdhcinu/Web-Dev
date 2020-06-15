@@ -14,13 +14,17 @@ httpRequest.onreadystatechange = function(){
     	// parsing response to json
     	response=JSON.parse(response);
     	// console.log(response.place);
-        document.getElementById('card').style.borderStyle='solid';
+        document.getElementById('card-body').style.borderStyle='solid';
         document.getElementById('place_url').style.display='block';
+        document.getElementById('place').style.display='block';
+        document.getElementById('place_url').href=`${response.place.place_url}`
         document.getElementById('card').style.display='block';
-        document.getElementById('card-image').innerHTML=`<img src='${response.place.image}'>`
-        document.getElementById('address').innerHTML=`${response.place.name}   ${response.place.location}`
-        document.getElementById('details').innerHTML=`${response.place.detail.slice(0,227)}...`
-        document.getElementById('last_hit_on').innerHTML=`${response.place.last_hit_on.slice(0,10)}`;
+        document.getElementById('greeting').innerHTML=`Best time to visit ${response.place.name}`;
+        document.getElementById('card-image').innerHTML=`<img src='${response.place.image}'>`;
+        document.getElementById('address').innerHTML=`${response.place.name}   ${response.place.location}`;
+        document.getElementById('details').innerHTML=`${response.place.detail}`;
+        document.getElementById('last_hit_on').innerHTML=`Last updated on:- ${response.place.last_hit_on.slice(0,10)}`;
+        document.getElementById('place_url').innerHTML=` ${response.place.name}`;
     	// document.getElementById('result').innerHTML=response
 
 	} else {
