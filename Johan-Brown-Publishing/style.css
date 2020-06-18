@@ -30,11 +30,12 @@
 }
 #story-line{
 	position: relative;
-	top: -35vh;
-	left: 17vw;
+	top: -25vh;
+	left: 10vw;
 	color: #81f5ff;
 	font-size: 2em;
 	font-weight: bold;
 	font-family: cursive;
-	width: 17em;
+	width: 40vw;
+	height: 40vh;
 }
