@@ -1,0 +1,40 @@
+#canvas{
+	background-color: #fbfd8a;
+	width: 100vw;
+	height: 100vh;
+}
+#container{
+	position: relative;
+	left: 18vw;
+	top: 10vh;
+	width: 60vw;
+	height: 75vh;
+	background-image: url('photos/1.jpg');
+	background-size: 60vw 75vh;
+}
+#buttons button{
+	background-color: transparent;
+	outline: none;
+}
+#side-l{
+	width: 10vw;
+	height: 75vh;
+	border-style: none;
+}
+#side-r{
+	width: 10vw;
+	height: 75vh;
+	position: relative;
+	left: 39.8vw;
+	border-style: none;
+}
+#story-line{
+	position: relative;
+	top: -35vh;
+	left: 17vw;
+	color: #81f5ff;
+	font-size: 2em;
+	font-weight: bold;
+	font-family: cursive;
+	width: 17em;
+}
