@@ -18,7 +18,10 @@ function prev(){
 		return 
 	else
 		offset-=1;
-	document.getElementById('container').style.backgroundImage="url('photos/"+index+".jpg')"
+	if(offset==12)
+		document.getElementById('container').style.backgroundImage="url('photos/6.jpg')"
+	else
+		document.getElementById('container').style.backgroundImage="url('photos/"+index+".jpg')"
 	document.getElementById('story-line').innerText=story[offset];
 }
 
