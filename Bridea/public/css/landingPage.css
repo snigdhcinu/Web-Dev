@@ -1,0 +1,35 @@
+.container{
+  margin-top: -50px;
+  background-color: #e8ead3;
+}
+.item{
+  margin-left: 10vw;
+  width: 80vw;
+  height: 100vh;
+  background-image: url('../images/background-image.jpg');
+  background-size: cover;
+}
+.body{
+  padding-left: 20px;
+}
+.body h1{
+  font-family: 'Sacramento', cursive;
+  font-size: 5rem;
+}
+.body p{
+font-family: 'Montserrat', sans-serif;
+font-size: 2rem;
+}
+.body button{
+  font-size: 1.6em;
+  position: relative;
+  left: 40%;
+  top: 53vh;
+  height: 2em;
+  padding-left: 1.1em;
+  padding-right: 1.1em;
+  border-radius: 30px;
+  background-color: transparent;
+  outline:none;
+  background-color: #e84a5f;
+}

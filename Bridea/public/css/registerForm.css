@@ -1,0 +1,25 @@
+body{
+  background-color: #e8e4e1;
+}
+.form-container{
+  position: relative;
+  left: 30%;
+}
+.form-body{
+  border-style: solid;
+  width: 40%;
+}
+form{
+  text-align: center;
+}
+form label{
+  font-size: 1.2em;
+}
+form input{
+  font-size: 1.2em;
+  margin-bottom: 1.2em;
+}
+form button{
+  font-size: 1.2em;
+  border-radius: 30px;
+}
