@@ -3,11 +3,12 @@ body{
 }
 .form-container{
   position: relative;
-  left: 30%;
+  /* left: 30%; */
+  top:20vh;
 }
-.form-body{
-  border-style: solid;
-  width: 40%;
+#label{
+  text-align:center;
+  font-size:2em;
 }
 form{
   text-align: center;
@@ -17,9 +18,27 @@ form label{
 }
 form input{
   font-size: 1.2em;
-  margin-bottom: 1.2em;
+  margin-bottom: 1px;
+  height:2em;
+  padding-left:15px;
+  outline:none;
+  border-width:1px;
+}
+form input:focus{
+  box-shadow:  2px 2px 1px 1px #32e0c4,  -2px 2px 1px 1px #32e0c4,  2px -2px 1px 1px #32e0c4,  -2px -2px 1px 1px #32e0c4
+}
+#ins{
+  position:relative;
+  left:-7vw;
+  font-size:1.3em;
 }
 form button{
-  font-size: 1.2em;
+  font-size: 1.5em;
   border-radius: 30px;
+  margin-top:10px;
+  background-color:#01a9b4;
+  outline:none;
+  width:7em;
+  height:2em;
+  color:#fff;
 }

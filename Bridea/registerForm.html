@@ -7,17 +7,24 @@
   </head>
   <body>
     <div class="form-container">
+    <p id="label">Enter Your Details</p>
       <div class="form-body">
         <form class="from" action="" method="post">
-          <label>Name</label>
-          <input type="text" name="name" placeholder="Enter your name"><br>
-          <label>E-mail</label>
-          <input type="text" name="name" placeholder="Enter your Email"><br>
-          <label>Contact Number</label>
-          <input type="text" name="name" placeholder="Enter your phone number"><br>
-          <button type="submit">Submit</button>
+         
+          <input  type="text" name="name" placeholder="Enter your name" autocomplete="off" autofocus required><br>
+          
+          <input  type="text" name="email" placeholder="Enter your Email" autocomplete="off" required><br>
+         
+          <input  type="text" name="ph" placeholder="Enter your phone number" autocomplete="off" required><br>
+          
+          <p id="ins"> Select 3 images </p>
+          <input type="file" name="file1" required><br>
+          <input type="file" name="file2"><br>
+          <input type="file" name="file3"><br> 
+          <a><button type="submit" onsubmit="confirm()">Submit</button></a>
         </form>
       </div>
     </div>
+    <script src="public/js/registerForm.js" charset="utf-8"></script>
   </body>
 </html>
