@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Log-in</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id="container">
+	<p>Log in to start browsing our list</p>
+<form>
+	<input type="email" name="email" placeholder="Enter your Email" required><br>
+	<input type="password" name="password" minlength="8" placeholder="Enter your password" required ><br>
+	<input class="checkbox" type="checkbox" onclick="savePassword()" name="save" ><label class="checkbox">Remeber password for this site</label><br>
+	<a href="success.html"><button type='submit'>Log in</button></a>
+</form>
+</div>
+<script type="text/javascript" src="autofill.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

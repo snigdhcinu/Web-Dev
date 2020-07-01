@@ -1,0 +1,35 @@
+body{
+	background-color: #faf0af;
+	text-align: center;
+}
+#container{
+	position: relative;
+	top: 30vh;
+}
+p{
+	font-size: 2em;
+	font-family: monospace;
+}
+input{
+	font-size: 1.3em;
+	padding-left: 1em;
+	border-radius: 10px;
+	margin-bottom: 5px;
+	outline: none;
+}
+button{
+	margin-top: 1.5em;
+	font-size: 1.2em;
+	background-color: #8bcdcd;
+	border-width: 1px;
+	border-radius: 10px;
+}
+button:hover{
+	background-color: #0fabbc;
+	color: #fff;
+	outline: none;
+
+}
+.checkbox{
+	margin-top: 1em;
+}
