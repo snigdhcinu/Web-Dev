@@ -1,0 +1,145 @@
+#page-1{
+	background-image: url('bg-img.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;
+}
+.navbar-collapse{
+	margin-right: 2em;
+}
+.nav-item{
+	font-family: cursive;
+	margin-left: 20px;	
+	font-weight: 600;
+	font-size: 1.4em;
+}
+#info-page-1{
+	margin-top: 23vh;
+	margin-left: 5em;
+	/*color: #ffffdd;*/
+	color: #ff5733;
+	width: 50%;
+}
+#info-page-1 h1{
+	color: #a8df65;
+	line-height: 1em;
+}
+#info-page-1 p{
+	margin-top: 0.5em;
+	color: #f4f6ff;
+	font-size: 1.6em;
+}
+#info-page-1 button{
+	margin-top: 0.4em;
+	margin-left: 1em;
+	outline: none;
+	background-color: #ffffdd;
+	font-size: 1.6em;
+	border-radius: 30px;
+	padding: 5px 15px;
+}
+#info-page-1 button:hover{
+	color: #fff;
+	background-color: transparent;	
+}
+#page-2{
+	text-align: center;
+	width: 80%;
+	margin-left: 11vw;
+	margin-top: 2.5em;
+}
+#page-2 h2{
+	font-size: 1.5em;
+	color: #a8df65;
+}
+#page-2 p{
+	font-size: 2em;
+}
+#company-list{
+	opacity: 0.6;
+}
+#company-list .list-item{
+	display: inline;
+	width: auto;
+}
+
+#company-list .list-item img{
+	transform: scale(0.4,0.4);
+}
+.carousel-item{
+	height: 20em;
+}
+.cauousel-caption h5{
+	color: #c4fb6d;
+	font-size: 1.8em;
+}
+#canvas{
+	background-color: #d1eaa3;
+	width: 100vw;
+	height: 100vh;
+	margin-top: -60px;
+}
+#container{
+	text-align: center;
+	position: relative;
+	top: 18vh;
+}
+#desc{
+	font-size: xx-large;
+	font-weight: bold;
+}
+hr{
+	width: 5%;
+	height: 3px;
+	border-style: none;
+	background-color: #0a97b0;
+	position: relative;
+	top: -30px;
+}
+#cards{
+	position: relative;
+	left: 30vw;
+	background-color: #f9fcfb;
+	width: 40vw;
+	height: 58vh;
+}
+#cards:hover{
+	box-shadow: 2px 2px 2px 1px #e0dede, -2px -2px 2px 1px #e0dede, 2px -2px 2px 1px #e0dede, -2px 2px 2px 1px #e0dede;
+}
+#photo img{
+	margin-top: 10px;
+	box-shadow: 6px -6px 2px #01a9b4;
+	border-radius: 50%;
+	width: 10em;
+	height: 24vh;
+
+}
+#buttons button{
+	background-color: #f9fcfb;
+	color: #0a97b0;
+	border-style: none;
+	font-size: 1.8em;
+	outline: none;		/* So that onclick the element doesn't have a border around it */
+}
+#rand_review button{
+	background-color: #f9fcfb;
+	border-color: #0a97b0;
+	border-radius: 20px;
+	color: #0a97b0;
+	outline: none;
+}
+#name{
+	margin-top: -5px;
+	font-size: 1.7em;
+}
+#designation{
+	font-size: 1.3em;
+	color: #32e0c4;
+	margin-top: -1em;
+}
+#description{
+	margin-top: -15px;
+	font-family: cursive;
+	color: #888888;
+}
