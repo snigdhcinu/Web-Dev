@@ -1,5 +1,5 @@
 #page-1{
-	background-image: url('bg-img.jpg');
+	background-image: url('photos/bg-img.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100vw;
@@ -105,7 +105,7 @@ hr{
 	height: 58vh;
 }
 #cards:hover{
-	box-shadow: 2px 2px 2px 1px #e0dede, -2px -2px 2px 1px #e0dede, 2px -2px 2px 1px #e0dede, -2px 2px 2px 1px #e0dede;
+	box-shadow: 3px 3px 1px 1px #e0dede, -3px -3px 1px 1px #e0dede, 3px -3px 1px 1px #e0dede, -3px 3px 1px 1px #e0dede;
 }
 #photo img{
 	margin-top: 10px;
@@ -142,4 +142,37 @@ hr{
 	margin-top: -15px;
 	font-family: cursive;
 	color: #888888;
+	padding: 0px 5px;
+}
+.container{
+	margin-top: 3em;
+}
+.card-img-top{
+	height: 180.53px;
+}
+.btn{
+	margin-left: 4em;
+}
+#footer{
+	text-align: center;
+	margin-top: 5em;
+}
+.social-media-logo{
+	display: inline;
+	margin-left: 0.7em;
+}
+.social-media-logo button{
+	background-color: transparent;
+	border-radius: 50%;
+	border-style: solid;
+	border-width: 1px;
+}
+.social-media-logo button:hover{
+	background-color: #000;
+	color: #fff;
+	outline: none;
+}
+#copyright{
+	margin-top: 1.5em;
+	opacity: 0.55;
 }
