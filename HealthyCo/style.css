@@ -2,8 +2,8 @@
 	background-image: url('photos/bg-img.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
-	width: 100vw;
-	height: 100vh;
+	/*width: 100vw;*/
+	/*height: 100vh;*/
 }
 .navbar-collapse{
 	margin-right: 2em;
@@ -61,6 +61,8 @@
 }
 #company-list .list-item{
 	display: inline;
+/*	display: block;
+	float: left;*/
 	width: auto;
 }
 
@@ -175,4 +177,15 @@ hr{
 #copyright{
 	margin-top: 1.5em;
 	opacity: 0.55;
+}
+
+@media (max-width: 900px){
+#page-1{
+	background-size: auto;
+	color: red;
+	}
+#company-list{
+	opacity: 1;
+}
+
 }
