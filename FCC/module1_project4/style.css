@@ -38,5 +38,27 @@ body{
 }
 .main-section p{
 	font-size: 1.3em;
-	line-height: 0.3em;
+	line-height: 1.3em;
+}
+@media(max-width:800px ){
+	#navbar{
+		/*height: 5em;*/
+	}
+	#navbar header{
+		font-size: 1.2em;
+	}
+	.nav-link{
+		font-size: 0.6em;
+		padding-left: 0.3em;
+	}
+	.nav-link:hover{
+		font-size: 0.68em;
+		color:#99b898;
+	}
+	.main-section header{
+		font-size: 1em;
+	}
+	.main-section p{
+		font-size: 0.8em;
+	}
 }
