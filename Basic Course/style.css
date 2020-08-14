@@ -72,3 +72,45 @@ body{
 	font-weight: bolder;
 	font-family: cursive; 
 }
+
+#page3 h1{
+	text-align: center;
+	margin-bottom: 1em;
+}
+.card-img-top{
+	height: 202px;
+}
+
+#page4{
+	margin-top: 7em;
+	margin-bottom: 4em;
+}
+.contact-form h1{
+	text-align: center;
+	margin-bottom: 1em;
+}
+.form-group{
+	text-align: center;
+}
+
+footer{
+	height: 5em;
+	width: 100%;
+	background-color: #000;
+	text-align: center;
+}
+.list-item{
+	display: inline;
+/*	background-color: #fff;*/
+	margin-left: 10px;
+	width: 2em;
+
+}
+.icon{
+	position: relative;
+	top: 1.3em;
+	color: #fff;
+}
+.icon i{
+	width: 1.4em;
+}
