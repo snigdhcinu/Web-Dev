@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Coding Boy</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<nav>
+		<ul class="nav-list">
+			<li class="nav-list-item"><a href="#" class="logo">Coding Boy</a></li>
+			<li class="nav-list-item"><a href="#contactForm" class="nav-item last-nav-item">Contact Us</a></li>
+			<li class="nav-list-item"><a href="#pricing" class="nav-item">Our Pricing</a></li>
+			<li class="nav-list-item "><a href="#" class="nav-item">Store</a></li>
+		</ul>
+	</nav>
+	<div id="page1">
+		<video id="video" width="100%"  autoplay muted loop>
+			<source src="public/bg-video.mp4" type="video/mp4">
+		</video>
+		<ul class="properties-list">
+			<li class="prop-item">Fresh Ingredients</li>
+			<li class="prop-item">Door Step Delivery</li>
+			<li class="prop-item">Quality Assured</li>
+			<li class="cmd"><button>Buy Now</button></li>
+		</ul>
+	</div>
+	<div id="page2">
+		<div id="pricing">
+			<h2>Our Pricing</h2>
+			<table>
+				<tr class="item" id="item1">
+					<td class="plan">Basic</td>
+					<td class="price">$10/mo</td>
+				</tr>
+				<tr class="item" id="item2">
+					<td class="plan">Intermediate</td>
+					<td class="price">$20/mo</td>
+				</tr>
+				<tr class="item" id="item3">
+					<td class="plan">Advanced</td>
+					<td class="price">$30/mo</td>
+				</tr>
+			</table>
+		</div>
+		<div id="contactForm">
+			<form method="post" action="/">
+				<label>Name :</label>
+				<input type="text" name="name" placeholder="enter your name here"><br><br>
+				<label>Email :</label>
+				<input type="email" name="email" placeholder="enter your email here"><br><br>
+				<label>Message :</label><br><br>
+				<textarea placeholder="enter your Message here"></textarea>
+			</form>
+		</div>
+	</div>
+</body>
+<footer>
+	<p>© Terms and conditions apply</p>
+</footer>
+</html>
