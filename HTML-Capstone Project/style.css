@@ -1,0 +1,17 @@
+body{
+	/*background-image: url('public/bg.jpg');*/
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+li{
+	display: inline;
+}
+#music{
+	position: relative;
+	top: -7em;
+}
+#survey{
+	position: relative;
+	top: -25em;
+	left: 83%;
+}
