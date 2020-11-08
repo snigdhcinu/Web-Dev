@@ -1,0 +1,36 @@
+#logo{
+	width: 150px;
+	height: 70px;
+}
+.nav-item{
+	margin-right: 1.5em;
+	font-size: 1.2em;
+}
+.nav-item:hover{
+	background-color: #9ddfd3;
+	border-radius: 10px;
+	transform: scale(1.1);
+}
+#coverPage{
+	width: 100vw;
+	height: 70vh;
+	background-image: url('../images/coverImg.jpg');
+	background-repeat: no-repeat;
+	background-size: 100vw 70vh;
+	color: #f1f6f9;
+	text-align: center;
+}
+.coverDetail{
+	margin-bottom: 1em;
+}
+.coverBtn{
+	outline: none;
+	position: relative;
+	top: 5em;
+	margin-left: 2em;
+	margin-right: 2em;
+
+}
+.coverBtn:hover{
+	cursor: pointer;
+}
