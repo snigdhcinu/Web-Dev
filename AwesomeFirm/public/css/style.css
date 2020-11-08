@@ -20,17 +20,47 @@
 	color: #f1f6f9;
 	text-align: center;
 }
-.coverDetail{
-	margin-bottom: 1em;
+#coverHeader{
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-decoration: underline;
+	text-decoration-color: #d2f5e3;
+	color: #fff;
+	background-color: rgba(1, 1, 1, 0.4);
+
+}
+#coverSubHeader{
+	padding-top: 2.5em;
 }
 .coverBtn{
 	outline: none;
+	margin-left: 4em;
+	margin-right: 4em;
 	position: relative;
-	top: 5em;
-	margin-left: 2em;
-	margin-right: 2em;
-
+	top: 3em;
+	background-color: #d2f5e3;
+	color: #000;
+	border-style: none;
+	border-radius: 10px;
 }
 .coverBtn:hover{
 	cursor: pointer;
+	background-color: transparent;
+	color: #fff;
+	transform: scale(1.1);
+	border-style: solid;
+}
+#subDetail{
+	background-color: #373a40;
+	color: #fff;
+	font-size: 1.3em;
+	padding: 10px ;
+	text-align: center;
+}
+#features{
+	margin-top: 2.5em;
+
+}
+.featureHeading{
+	text-align: center;
 }
