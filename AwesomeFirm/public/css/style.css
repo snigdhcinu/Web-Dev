@@ -13,10 +13,10 @@
 }
 #coverPage{
 	width: 100vw;
-	height: 70vh;
+	height: 80vh;
 	background-image: url('../images/coverImg.jpg');
 	background-repeat: no-repeat;
-	background-size: 100vw 70vh;
+	background-size: 100vw 80vh;
 	color: #f1f6f9;
 	text-align: center;
 }
@@ -62,5 +62,27 @@
 
 }
 .featureHeading{
+	text-align: center;
+}
+.container{
+	margin-top: 2em;
+}
+#inspirations{
+	margin-top: 2.5em;
+}
+#inspirers{
+	text-align: center;
+}
+.toggle-btn{
+	position: relative;
+	top: 5.5em;
+}
+.prev-btn{
+	text-align: right;
+}
+.next-btn{
+	text-align: left;
+}
+.center-items{
 	text-align: center;
 }
