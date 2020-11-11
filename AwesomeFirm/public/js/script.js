@@ -41,3 +41,11 @@ function next(){
 	name.innerText = names[counter];
 	designation.innerText = designations[counter];
 }
+
+
+let copyright = document.getElementById('copyright');
+
+let date = new Date();
+let year = date.getFullYear()
+
+copyright.innerHTML = `<i class="far fa-copyright"></i> ${year} All rights reserved by Awesome Firms `

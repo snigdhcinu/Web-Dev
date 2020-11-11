@@ -102,6 +102,9 @@
 	position: relative;
 	left: 24%
 }
+.testimonial-image:hover{
+	transform: scale(1.2);
+}
 .testimonial-giver-detail{
 	text-align: center;
 }
@@ -116,4 +119,25 @@
 	background-color: #000;
 	height: 5em;
 	width: 100vw;
+	text-align: center;
+}
+.svg{
+	color: #fff;
+	transform: scale(1.2);
+	margin-right: 1em;
+	margin-top: 0.8em;
+}
+.svg:hover{
+	cursor: pointer;
+}
+#copyright{
+	color: #fff;
+}
+
+/*1200*/
+
+@media(max-width: 1200px){
+	.custom{
+		display: none;
+	}
 }
